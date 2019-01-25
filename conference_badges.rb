@@ -20,8 +20,7 @@ def assign_rooms(array)
 end
 
 def printer(array)
-  a = batch_badge_creator(array)
-  b = assign_rooms(array)
-  a.each do |x| puts x end
+  a = batch_badge_creator(array).each do
+  b = assign_rooms(array)do |x| puts x end
   b.each do |x| puts x end
 end
